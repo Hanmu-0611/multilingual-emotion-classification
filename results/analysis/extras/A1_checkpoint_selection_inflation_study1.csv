@@ -1,0 +1,8 @@
+target,strategy,mean,max
+EN,language_specific,0.0009,0.0042
+EN,multilingual,0.0001,0.0009
+KO,language_specific,0.0013,0.0059
+KO,multilingual,0.0004,0.0039
+Original,multilingual,0.0003,0.0029
+ZH,language_specific,0.004,0.0099
+ZH,multilingual,0.0,0.0001

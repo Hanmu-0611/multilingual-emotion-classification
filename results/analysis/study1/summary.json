@@ -1,0 +1,69 @@
+{
+  "n_seeds": 10,
+  "seeds": [
+    7,
+    17,
+    29,
+    42,
+    53,
+    71,
+    101,
+    123,
+    2026,
+    31415
+  ],
+  "run_level_anova": {
+    "sum_sq": {
+      "C(target)": 0.008294414532892619,
+      "C(strategy)": 0.047597695983294455,
+      "C(target):C(strategy)": 0.001223570260051117,
+      "Residual": 0.0017126074991603844
+    },
+    "df": {
+      "C(target)": 2.0,
+      "C(strategy)": 1.0,
+      "C(target):C(strategy)": 2.0,
+      "Residual": 54.0
+    },
+    "F": {
+      "C(target)": 130.76504248515383,
+      "C(strategy)": 1500.7966415877504,
+      "C(target):C(strategy)": 19.290115824890666,
+      "Residual": 0.0
+    },
+    "PR(>F)": {
+      "C(target)": 1.9977015492671427e-21,
+      "C(strategy)": 4.370935664872865e-41,
+      "C(target):C(strategy)": 4.77131853306881e-07,
+      "Residual": 0.0
+    },
+    "eta_sq": {
+      "C(target)": 0.14099364057752575,
+      "C(strategy)": 0.8090953753485184,
+      "C(target):C(strategy)": 0.020799011766636802,
+      "Residual": 0.02911197230731903
+    },
+    "partial_eta_sq": {
+      "C(target)": 0.8288594255439016,
+      "C(strategy)": 0.9652687698470614,
+      "C(target):C(strategy)": 0.4167221334650058,
+      "Residual": 0.5
+    }
+  },
+  "assumptions_run_level": {
+    "levene_p": 0.7141084432779394,
+    "shapiro_p": 0.03880330019668725,
+    "rank_anova_p": {
+      "C(target)": 2.278938727752352e-15,
+      "C(strategy)": 9.58491408111188e-31,
+      "C(target):C(strategy)": 0.020989713842161806
+    }
+  },
+  "mixedlm_run_intercept_var": 5.736419771182141e-13,
+  "mixedlm_resid_var": 0.00010482935472625242,
+  "icc_run": 5.4721501956884774e-09,
+  "friedman_emotions": {
+    "chi2": 40.0,
+    "p": 4.328422607120966e-08
+  }
+}

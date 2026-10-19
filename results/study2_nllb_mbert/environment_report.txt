@@ -1,0 +1,13 @@
+Study 2 Multi-Seed Reproduction -- Environment Report
+================================================================================
+Python: 3.13.15 (main, Aug  6 2026, 11:06:22) [GCC 13.3.0]
+OS: Linux-6.6.122+-x86_64-with-glibc2.39
+torch: 2.11.0+cu130
+CUDA available: True
+GPU: NVIDIA RTX PRO 6000 Blackwell Server Edition
+CUDA version: 13.0
+transformers: 5.17.0
+Seeds: [42, 123, 2026, 7, 17, 29, 53, 71, 101, 31415]
+Models: ['bert-base-multilingual-cased']
+TRAIN_N=2500 TEST_N=500 MASTER_DATA_SEED=42
+Run started: 2026-10-03 14:51:07

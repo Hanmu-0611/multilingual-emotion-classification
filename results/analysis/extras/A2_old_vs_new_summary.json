@@ -1,0 +1,20 @@
+{
+  "A2_old_vs_new_design_study2": {
+    "common_seeds": [
+      7,
+      17,
+      29,
+      53,
+      71,
+      101,
+      123,
+      2026,
+      31415
+    ],
+    "mean_old": 0.36888393535724223,
+    "mean_new": 0.3085014705746793,
+    "diff_same_lang": 0.14278041923704082,
+    "diff_cross_lang": 0.01918348755532389
+  },
+  "note": "old = earlier design (test-set checkpoint selection + 100% train/test sentence overlap), 9 common seeds; the old runs themselves are not released"
+}

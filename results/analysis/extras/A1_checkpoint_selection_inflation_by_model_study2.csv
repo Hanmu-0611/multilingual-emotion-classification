@@ -1,0 +1,5 @@
+model,mean,max,share_runs_best_not_last
+bert-base-multilingual-cased,0.0018,0.0332,0.189
+hfl/chinese-roberta-wwm-ext,0.0079,0.084,0.4
+klue/roberta-base,0.0058,0.0601,0.322
+roberta-base,0.012,0.0664,0.444

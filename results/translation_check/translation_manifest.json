@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-03T14:35:33",
+  "device": "cuda",
+  "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+  "nllb_model": "facebook/nllb-200-distilled-1.3B",
+  "labse_model": "sentence-transformers/LaBSE",
+  "num_beams": 4,
+  "max_new_tokens": 256,
+  "python": "3.13.15",
+  "torch": "2.11.0+cu130",
+  "transformers": "5.17.0",
+  "sentence_transformers": "5.7.0",
+  "sacrebleu": "2.6.0",
+  "n_pairs": 18000,
+  "kruskal_wallis": {
+    "sim_orig_gpt": {
+      "H": 236.0556582474076,
+      "p": 6.558637281852009e-50
+    },
+    "sim_orig_nllb": {
+      "H": 100.6520321107937,
+      "p": 7.145399025853101e-21
+    }
+  },
+  "share_below_0.70": {
+    "sim_orig_gpt": 0.07433333333333333,
+    "sim_orig_nllb": 0.222,
+    "sim_gpt_nllb": 0.15488888888888888
+  },
+  "runtime_sec": 1082.9
+}

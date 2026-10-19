@@ -1,0 +1,6 @@
+,anger,fear,joy,sadness,surprise
+anger,0,1,0,99,0
+fear,0,0,0,100,0
+joy,0,0,0,100,0
+sadness,0,1,0,99,0
+surprise,0,0,0,100,0

@@ -1,0 +1,6 @@
+,partial_eta2_Source,eta2_Source,R2_model
+baseline (no length),0.0515,0.0512,0.0564
++ char length of input,0.0464,0.0462,0.057
++ char length of original,0.0502,0.0499,0.0575
++ log chars + squares,0.0447,0.0444,0.0571
++ whitespace words,0.0476,0.0473,0.0569

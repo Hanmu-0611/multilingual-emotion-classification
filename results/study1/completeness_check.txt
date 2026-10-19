@@ -1,0 +1,6 @@
+Study 1 fixed re-run -- completeness check
+======================================================================
+Expected 10 seeds x 7 configs = 70 runs; present 70; missing 0; duplicated 0
+source_level: 210 rows (expected 210)
+emotion_level: 1050 rows (expected 1050)
+prediction_level: 105000 rows (expected 105000)

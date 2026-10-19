@@ -1,0 +1,18 @@
+Study 2 Multi-Seed Reproduction -- Completeness Check
+================================================================================
+Expected: 10 seeds x 36 combos = 90 runs
+Actual rows in run_level_results.csv: 90
+Unique completed combos: 90
+Missing combos: 0
+Duplicate combos (row appears >1x): 0
+Per-seed completed count (expect 36 each):
+  seed=42: 9/36
+  seed=123: 9/36
+  seed=2026: 9/36
+  seed=7: 9/36
+  seed=17: 9/36
+  seed=29: 9/36
+  seed=53: 9/36
+  seed=71: 9/36
+  seed=101: 9/36
+  seed=31415: 9/36

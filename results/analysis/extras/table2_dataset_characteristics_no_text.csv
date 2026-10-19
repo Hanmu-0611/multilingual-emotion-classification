@@ -1,0 +1,13 @@
+item,KO_KorEmpatheticDialogues,ZH_CLUEEmotionAnalysis2020,EN_GoEmotions
+text_type,crowd-written personal situation descriptions,Weibo posts,Reddit comments
+origin_of_text,machine translation (DeepL) of English EmpatheticDialogues,native Chinese,native English
+annotation_unit,one label per situation,one label per post,one label per annotator and comment (multiple annotators)
+raw_5_class_pool_size,4516,30245,21049 rows (19165 distinct comments)
+pool_class_distribution_pct,surprise 28.1 / sadness 18.8 / anger 18.8 / fear 17.4 / joy 16.9,sadness 46.5 / joy 32.9 / anger 15.1 / surprise 3.3 / fear 2.2,joy 26.3 / anger 26.1 / sadness 20.9 / surprise 17.3 / fear 9.3
+sampled_n_per_language,3000,3000,3000
+sampled_text_mean_length_chars,44.3,48.1,70.8
+sampled_text_median_length_chars,39,34,69
+share_ending_with_sentence_punctuation_pct,91.1,42.9,58.1
+share_with_bracketed_markers_pct,0.0,23.1,12.7
+share_with_first_person_marker_pct,25.1,47.6,39.0
+texts_with_conflicting_labels,7,15,1804

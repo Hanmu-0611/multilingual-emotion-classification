@@ -1,0 +1,9 @@
+Study 1 fixed re-run -- environment
+python 3.13.15 (main, Aug  6 2026, 11:06:22) [GCC 13.3.0]
+os Linux-6.6.122+-x86_64-with-glibc2.39
+torch 2.11.0+cu130  cuda True
+gpu NVIDIA RTX PRO 6000 Blackwell Server Edition
+transformers 5.17.0
+seeds [42, 123, 2026, 7, 17, 29, 53, 71, 101, 31415]
+configs [('Original', 'dataset_experiment1_original.csv', 'multilingual', 'bert-base-multilingual-cased'), ('KO', 'dataset_experiment2_korean.csv', 'multilingual', 'bert-base-multilingual-cased'), ('KO', 'dataset_experiment2_korean.csv', 'language_specific', 'klue/roberta-base'), ('ZH', 'dataset_experiment3_chinese.csv', 'multilingual', 'bert-base-multilingual-cased'), ('ZH', 'dataset_experiment3_chinese.csv', 'language_specific', 'hfl/chinese-roberta-wwm-ext'), ('EN', 'dataset_experiment4_english.csv', 'multilingual', 'bert-base-multilingual-cased'), ('EN', 'dataset_experiment4_english.csv', 'language_specific', 'roberta-base')]
+started 2026-10-03 12:00:23

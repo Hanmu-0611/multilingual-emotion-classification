@@ -1,0 +1,36 @@
+{
+  "A1_Study2": {
+    "mean": 0.0068556924522892825,
+    "ci": [
+      0.0054360792875379664,
+      0.008353035711597684
+    ],
+    "share_best_not_last": 0.3388888888888889
+  },
+  "A1_Study1": {
+    "mean": 0.0010030978336747472,
+    "ci": [
+      0.0005154227385252234,
+      0.0015632741625465705
+    ],
+    "share_best_not_last": 0.2571428571428571
+  },
+  "C_gap_same_minus_cross": {
+    "mean": 0.12753410256146025,
+    "ci": [
+      0.10218462523706884,
+      0.15107618194329414
+    ]
+  },
+  "D_between_F": {
+    "C(target)": 129.675,
+    "C(strategy)": 1492.095,
+    "C(target):C(strategy)": 20.062
+  },
+  "D_within_F": {
+    "C(source_language)": 7486.591,
+    "C(target):C(source_language)": 31.501,
+    "C(strategy):C(source_language)": 6.158,
+    "C(target):C(strategy):C(source_language)": 14.378
+  }
+}
